@@ -52,7 +52,8 @@ def main():
 
     df.to_csv(csvFilePath)
     bag.close()
-
+    print("[INFO]: The data has been successfully converted to Output.csv file")
+    
 if __name__ == '__main__':
     try:
         main()
