@@ -1,4 +1,4 @@
-# Assessment Report
+
 
 [![N|Solid](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsn7Josk2eGRXeETO37meCd03oritTv-gMBrg9GYSO7BSKO1JYyZLJYbgPaP6YZQ4J9Q&usqp=CAU)](https://www.ros.org/)
 
@@ -54,13 +54,4 @@ The performance obtained from the current settings for the extended kalman filte
 
 ![Screenshot from 2021-08-22 05-20-21.png](https://www.dropbox.com/s/dh6wgmqtbv61pcc/Screenshot%20from%202021-08-22%2005-20-21.png?dl=0&raw=1)
 
-## Work Description
-
-1. The task given was a completely new learning for me. The concept of Kalman Filter is known to me but the use of the Extended Kalman Filter to estimate pose using non linear function is something I had to understand.
-2. The major time period was spent in understanding the concept of odometry data for localisation and the fusion of many such sensor data to obtain estimated pose. This took around 7-8 hours of my time.
-3. After understanding the above concepts , I had to make a decision to go ahead with developing the Extended Kalman Filter Algorithm. Since this would have taken an entire day to complete I had to switch to an open source ros library which does the job for me.
-4. There are very few blogs/posts regarding robot localization ros package. This took me aroud 4-5 hours to understand how to configure the parameters for the efk model using this library. I had to go through all the example parameter files and dataset given by the robot localization package to get a fair understanding of the working.
-5. Once I was all set with the knowledge base , I started developing the necessary codes and launch file to obtain the output. Once a fair output was obtained I went ahead with integrating rviz to the codebase to have a visiual representation of the robot localization. I havent created a map for the same since it would have taken more time.
-6. Also I have added ros_plot charts which shows the filtered output along with the /sensor/odom/ground_truth output to represent the deviation obtained from the idle output.
-7. I really wish to develop codes for the extended kalman filter model from scratch and then implement the same once again.I had to go through the concepts of frames and maps and tf transforms in ROS from scratch to develop the codes.It was a really great assessment with a lot of learning in a short period of time.
 
